@@ -3,14 +3,16 @@
 This repository contains analysis code for the following paper: 
 Rouault M. & Fleming S. M. Formation of global self-beliefs in the human brain. (2020)
 
-Script and data files are included in the repository to enable replication of data analyses and rapid generation of the figures in the paper.
-The folder DATA contains anonymised behavioral data files for the fMRI experiment and the following metacognition experiment outside of the scanner, providing the summarised individual data for all plots and statistics: 
+Script and data files are included in the repository to enable replication of data analyses and generation of the figures in the paper.
+The folder DATA contains anonymised behavioral data files for the fMRI experiment and the following metacognition experiment outside of the scanner, providing the summarised individual data for the main plots and statistics of the paper: 
 
 •	MainExp.mat (fMRI experiment)
 
 •	MetacogExp.mat (Metacognition experiment, outside of the scanner)
 
-The folder SCRIPTS contains two main scripts to enable replication of statistical analyses and rapid generation of the figures for each of the experiments in the paper:
+•	auroc.mat (Metacognition experiment, outside of the scanner, gives the type2-area under the ROC curve; Maniscalco & Lau, 2012)
+
+The folder SCRIPTS contains two main scripts to enable replication of statistical analyses and generation of the figures for each of the experiments in the paper:
 
 •	BehaviorMainExp.m
 
